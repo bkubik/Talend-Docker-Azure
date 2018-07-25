@@ -11,9 +11,12 @@ This repository include a bash Dockerfile script which allows you to deploy auto
 4. Upload the Talend Job File.
 
 ### Instructions
+
 **Step 1:** Fork this Repository. Forking is a way for you to clone this repository, and to modify it from there (Upload your Job). To fork is just another way of saying clone. From this repository, click Fork on the top right and it will fork this repository to your account. 
 
 **Step 2:** We will now need to prep the Dockerfile for the build-task. We will need to edit 2 variables in the Dockerfile; 1 extra which is optional for context_params.
+
+Included in this repo is a test file called Test_0.1.zip (The JOB_NAME is Test) This Talend Job will print Hello-World. You can use this file to test this solution.
 
 FILE_NAME will be the name of the zip file. For example if your zipfile is called Test_0.1.zip then this will be the filename. 
 
