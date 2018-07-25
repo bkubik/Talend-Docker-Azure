@@ -27,7 +27,7 @@ CONTEXTARGS allows us to pass any additional context_params to the Talend Job. T
     
     ENV CONTEXTARGS=""
 
-**Step 4:** Once forked you will want to link the Azure Task to the Github as follows. This will allow us to deploy automated Talend jobs to an Azure Container Registry on new commits. You will replace the following fields: `(REGISTRY-NAME, JOB-NAME, IMAGE-NAME, FORKED-GITHUB-REPO-URL, GITHUB-USER-TOKEN)` To get a Github-User-Token visit: [How Creating a personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
+**Step 3:** Once forked you will want to link the Azure Task to the Github as follows. This will allow us to deploy automated Talend jobs to an Azure Container Registry on new commits. You will replace the following fields: `(REGISTRY-NAME, JOB-NAME, IMAGE-NAME, FORKED-GITHUB-REPO-URL, GITHUB-USER-TOKEN)` To get a Github-User-Token visit: [How Creating a personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
 
     $ az acr build-task create --registry REGISTRY-NAME --name JOB-NAME --image IMAGE-NAME:v1 --context FORKED-GITHUB-URL --branch master --git-access-token GITHUB-USER-TOKEN
     
