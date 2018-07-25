@@ -10,7 +10,7 @@ This repository include a bash Dockerfile script which allows you to deploy auto
 3. Run the Azure build-task command to link the repo to the repository.
 4. Upload the Talend Job File.
 
-### Create your Repository
+### Instructions
 **Step 1:** Fork this Repository. Forking is a way for you to clone this repository, and to modify it from there (Upload your Job). To fork is just another way of saying clone. From this repository, click Fork on the top right and it will fork this repository to your account. 
 
 **Step 2:** We will now need to prep the Dockerfile for the build-task. We will need to edit 2 variables in the Dockerfile; 1 extra which is optional for context_params.
