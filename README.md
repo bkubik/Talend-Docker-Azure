@@ -38,3 +38,6 @@ CONTEXTARGS allows us to pass any additional context_params to the Talend Job. T
 ](https://help.github.com/articles/adding-a-file-to-a-repository/)
 
 Everytime we upload a new file or make a change it will run the build-task and upload the latest build to the Azure Registry assuming build is successful. So if you wish to upload a new build to the registry, simply add a new file or make a change to the Dockerfile.
+
+
+For S3ReadToSnowflakeWrite task The FILE_NAME = S3ReadToSnowflakeWrite.zip JOB_NAME = S3ReadToSnowflakeWrite
